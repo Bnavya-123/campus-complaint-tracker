@@ -117,7 +117,7 @@ def run(title, view, handle):
         def log_message(self, *args):
             pass
 
-    server = HTTPServer(("127.0.0.1", port), Handler)
+    server = HTTPServer(("0.0.0.0", port), Handler)
     print(f"{title}: open http://127.0.0.1:{port}")
     print("Keep this terminal open. Press Ctrl+C to stop.")
     try:
