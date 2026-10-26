@@ -1,0 +1,20 @@
+{
+  "tickets": [
+    {
+      "id": 1,
+      "category": "Network",
+      "location": "Block A",
+      "description": "Fan is not working in room 12",
+      "status": "Pending",
+      "created": "2026-10-26",
+      "assignee": "Not assigned",
+      "history": [
+        [
+          "2026-10-26T20:31:30",
+          "Pending",
+          "Ticket created"
+        ]
+      ]
+    }
+  ]
+}
